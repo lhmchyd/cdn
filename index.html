@@ -3,44 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File List</title>
+    <title>Site Unavailable</title>
     <style>
         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 20px;
+            background-color: #f8f9fa;
+            color: #343a40;
+            text-align: center;
         }
-        .file-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .file-list li {
-            padding: 8px 0;
+        .message {
+            padding: 20px;
+            border: 1px solid #343a40;
+            border-radius: 5px;
+            background-color: #fff;
         }
     </style>
 </head>
 <body>
-    <h1>Folder Contents</h1>
-    <ul id="file-list" class="file-list"></ul>
+    <div class="message">
+        <h1>Site Unavailable</h1>
+        <p>Sorry, this site cannot be opened.</p>
+        <a href="https://keybindz.com" target="_blank">Keybindz</a> 
+    </div>
 
     <script>
-        // Function to fetch and display files
-        function fetchAndDisplayFiles() {
-            fetch('/files')
-                .then(response => response.json())
-                .then(files => {
-                    var ul = document.getElementById('file-list');
-                    ul.innerHTML = ''; // Clear any existing list items
-                    files.forEach(function(file) {
-                        var li = document.createElement('li');
-                        li.textContent = file;
-                        ul.appendChild(li);
-                    });
-                })
-                .catch(error => console.error('Error fetching files:', error));
-        }
-
-        // Call the function to fetch and display files
-        fetchAndDisplayFiles();
+        // Close the browser tab immediately after displaying the message
+        window.close();
     </script>
 </body>
 </html>
