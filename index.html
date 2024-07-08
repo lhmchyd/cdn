@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .file-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 8px 0;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Folder Contents</h1>
+    <ul id="file-list" class="file-list"></ul>
+
+    <script>
+        // Function to fetch and display files
+        function fetchAndDisplayFiles() {
+            fetch('/files')
+                .then(response => response.json())
+                .then(files => {
+                    var ul = document.getElementById('file-list');
+                    ul.innerHTML = ''; // Clear any existing list items
+                    files.forEach(function(file) {
+                        var li = document.createElement('li');
+                        li.textContent = file;
+                        ul.appendChild(li);
+                    });
+                })
+                .catch(error => console.error('Error fetching files:', error));
+        }
+
+        // Call the function to fetch and display files
+        fetchAndDisplayFiles();
+    </script>
 </body>
 </html>
