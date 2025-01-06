@@ -51,8 +51,8 @@ main {
   --color-btn-primary-selected-bg: rgba(var(--primary-default), 0.45);
   --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(0 45 17 / 20%);
   --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
-  --color-btn-primary-disabled-bg: rgba(var(--primary-default), 0.5);
-  --color-btn-primary-disabled-border: rgba(var(--primary-default), 0.5);
+  --color-btn-primary-disabled-bg: rgb(238 28 78);
+  --color-btn-primary-disabled-border: rgb(238 28 78);
   --color-action-list-item-default-hover-bg: rgb(177 186 196 / 12%);
   --color-segmented-control-bg: rgb(110 118 129 / 10%);
   --color-segmented-control-button-bg: #18171d;
