@@ -1,0 +1,46 @@
+:root {
+  --primary-default: 53, 120, 229;
+  --bg-default: var(--efu-background);
+  --color-prettylights-syntax-comment: var(--efu-secondtext);
+  --color-prettylights-syntax-constant: var(--efu-blue);
+  --color-prettylights-syntax-entity: var(--efu-purple);
+  --color-prettylights-syntax-storage-modifier-import: var(--efu-fontcolor);
+  --color-prettylights-syntax-entity-tag: var(--efu-green);
+  --color-prettylights-syntax-keyword: var(--efu-red);
+  --color-prettylights-syntax-string: var(--efu-blue);
+  --color-prettylights-syntax-variable: var(--efu-orange);
+  --color-prettylights-syntax-brackethighlighter-unmatched: var(--efu-red);
+  --color-prettylights-syntax-invalid-illegal-text: var(--efu-reverse);
+  --color-prettylights-syntax-invalid-illegal-bg: var(--efu-red);
+  --color-prettylights-syntax-carriage-return-text: var(--efu-reverse);
+  --color-prettylights-syntax-carriage-return-bg: var(--efu-pink);
+  --color-prettylights-syntax-string-regexp: var(--efu-green);
+  --color-prettylights-syntax-markup-list: var(--efu-yellow);
+  --color-prettylights-syntax-markup-heading: var(--efu-hovertext);
+  --color-prettylights-syntax-markup-italic: var(--efu-fontcolor);
+  --color-prettylights-syntax-markup-bold: var(--efu-fontcolor);
+  --color-prettylights-syntax-markup-deleted-text: var(--efu-red);
+  --color-prettylights-syntax-markup-deleted-bg: var(--efu-maskbgdeep);
+  --color-prettylights-syntax-markup-inserted-text: var(--efu-green);
+  --color-prettylights-syntax-markup-inserted-bg: var(--efu-card-bg);
+  --color-prettylights-syntax-markup-changed-text: var(--efu-orange);
+  --color-prettylights-syntax-markup-changed-bg: var(--efu-card-btn-bg);
+  --color-btn-text: var(--efu-fontcolor);
+  --color-btn-bg: var(--efu-card-btn-bg);
+  --color-btn-border: var(--efu-card-border);
+  --color-btn-primary-bg: var(--efu-blue);
+  --color-btn-primary-border: var(--efu-blue);
+  --color-success-fg: var(--efu-green);
+  --color-attention-fg: var(--efu-yellow);
+  --color-danger-fg: var(--efu-red);
+}
+
+
+
+main .pagination-loader-container {
+  background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg");
+}
+
+main .gsc-loading-image {
+  background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
+}
