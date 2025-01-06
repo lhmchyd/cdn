@@ -64,7 +64,7 @@ main {
   --color-canvas-overlay: rgb(23 22 28);
   --color-canvas-inset: rgb(33 35 42);
   --color-canvas-subtle: rgb(33 35 42);
-  --color-border-default: rgb(235 10 10 / 0%);
+  --color-border-default: rgb(255 255 255 / 0%);
   --color-border-muted: rgb(175 184 193 / 20%);
   --color-neutral-muted: rgb(175 184 193 / 20%);
   --color-accent-fg: rgb(238 28 78);
