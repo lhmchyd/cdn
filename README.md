@@ -1,4 +1,4 @@
-## https://www.jsdelivr.com/package/gh/lhmchyd/cdn
+[![](https://data.jsdelivr.com/v1/package/gh/lhmchyd/cdn/badge)](https://www.jsdelivr.com/package/gh/lhmchyd/cdn)
 
 # My Personal DNS Tools - JavaScript & CSS 🎨
 
