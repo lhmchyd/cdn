@@ -64,12 +64,12 @@ main {
   --color-canvas-overlay: rgb(23 22 28);
   --color-canvas-inset: rgb(33 35 42);
   --color-canvas-subtle: rgb(33 35 42);
-  --color-border-default: rgb(235 10 10 / 0%);
+  --color-border-default: rgb(255 255 255 / 0%);
   --color-border-muted: rgb(175 184 193 / 20%);
   --color-neutral-muted: rgb(175 184 193 / 20%);
   --color-accent-fg: rgb(238 28 78);
   --color-accent-emphasis: rgba(var(--primary-default), 0.95);
-  --color-accent-muted: rgb(238 28 78);
+  --color-accent-muted: rgb(27 28 32);
   --color-accent-subtle: rgba(var(--primary-default), 0.1);
   --color-success-fg: #3fb950;
   --color-attention-fg: #d29922;
